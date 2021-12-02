@@ -1,5 +1,5 @@
 #question 1
-f = open("input.csv", "r")
+f = open("day1.txt", "r")
 j = ""
 counter = 0
 for x in f: 
@@ -9,7 +9,7 @@ for x in f:
 print(counter)
 
 #question 2
-f = open("input.csv", "r")
+f = open("day1.txt", "r")
 counter,j,k,l=0,int(f.readline().strip()),int(f.readline().strip()),int(f.readline().strip())
 for i in f:
     counter += 1 if int(i)+j+k > j+k+l else False
